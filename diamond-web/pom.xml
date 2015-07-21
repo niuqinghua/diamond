@@ -13,8 +13,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.lecloud.vod</groupId>
-            <artifactId>stone-basic</artifactId>
+            <groupId>dream.diamond</groupId>
+            <artifactId>diamond-basic</artifactId>
         </dependency>
     </dependencies>
 </project>
