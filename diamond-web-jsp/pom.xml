@@ -16,5 +16,9 @@
             <groupId>dream.diamond</groupId>
             <artifactId>diamond-web</artifactId>
         </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+        </dependency>
     </dependencies>
 </project>
