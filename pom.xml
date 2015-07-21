@@ -17,6 +17,7 @@
         <module>diamond-embedded-jetty</module>
         <module>diamond-external-container</module>
         <module>diamond-web-jsp</module>
+        <module>diamond-samples</module>
     </modules>
 
     <properties>
