@@ -16,10 +16,11 @@
         <module>diamond-embedded-tomcat</module>
         <module>diamond-embedded-jetty</module>
         <module>diamond-external-container</module>
+        <module>diamond-web-jsp</module>
     </modules>
 
     <properties>
-        <diamond.version>1.0.1-SNAPSHOT</diamond.version>
+        <diamond.version>1.0-SNAPSHOT</diamond.version>
         <dozer.version>5.5.1</dozer.version>
         <spring.boot.version>1.2.5.RELEASE</spring.boot.version>
         <metrics.version>0.0.1-SNAPSHOT</metrics.version>
