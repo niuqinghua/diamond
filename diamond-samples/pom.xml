@@ -13,7 +13,6 @@
     <artifactId>diamond-samples</artifactId>
 
     <modules>
-        <module>diamond-web-jsp-external-tomcat</module>
     </modules>
 
 </project>
