@@ -13,6 +13,14 @@
     <artifactId>diamond-samples</artifactId>
 
     <modules>
+        <module>diamond-service-embedded-jetty</module>
+        <module>diamond-service-embedded-tomcat</module>
+        <module>diamond-service-external-container</module>
+        <module>diamond-service-module</module>
+        <module>diamond-web-freemarker</module>
+        <module>diamond-web-jsp</module>
+        <module>diamond-web-module</module>
+        <module>diamond-web-velocity</module>
     </modules>
 
 </project>
