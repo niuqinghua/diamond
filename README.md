@@ -1,2 +1,2 @@
 # diamond
-framework using spring boot
+framework based on spring boot
