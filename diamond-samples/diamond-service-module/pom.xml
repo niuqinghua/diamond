@@ -11,5 +11,11 @@
 
     <artifactId>diamond-service-module</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>dream.diamond</groupId>
+            <artifactId>diamond-service</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

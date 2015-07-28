@@ -11,5 +11,10 @@
 
     <artifactId>diamond-web-module</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>dream.diamond</groupId>
+            <artifactId>diamond-web</artifactId>
+        </dependency>
+    </dependencies>
 </project>

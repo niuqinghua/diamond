@@ -23,4 +23,19 @@
         <module>diamond-web-velocity</module>
     </modules>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>dream.diamond</groupId>
+                <artifactId>diamond-service-module</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>dream.diamond</groupId>
+                <artifactId>diamond-web-module</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
 </project>
