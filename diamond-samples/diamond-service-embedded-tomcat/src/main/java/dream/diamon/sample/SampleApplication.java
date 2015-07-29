@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import dream.diamond.application.AbstractEmbeddedServerApplication;
 
 @Configuration
-@ComponentScan(value = {"com.lecloud.vod.stone"})
+@ComponentScan(value = {"dream.diamond"})
 public class SampleApplication extends AbstractEmbeddedServerApplication {
 
     public static void main(String[] args) {
