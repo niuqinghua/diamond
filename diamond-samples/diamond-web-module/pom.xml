@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>dream.diamond</groupId>
-            <artifactId>diamond-web</artifactId>
+            <artifactId>diamond-application-web</artifactId>
         </dependency>
     </dependencies>
 </project>

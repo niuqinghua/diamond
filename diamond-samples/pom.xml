@@ -12,6 +12,10 @@
 
     <artifactId>diamond-samples</artifactId>
 
+    <properties>
+        <maven.deploy.skip>true</maven.deploy.skip>
+    </properties>
+
     <modules>
         <module>diamond-service-embedded-jetty</module>
         <module>diamond-service-embedded-tomcat</module>
