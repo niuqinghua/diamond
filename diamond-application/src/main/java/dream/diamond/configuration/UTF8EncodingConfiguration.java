@@ -1,4 +1,4 @@
-package dream.diamond.service.system;
+package dream.diamond.configuration;
 
 import javax.servlet.Filter;
 

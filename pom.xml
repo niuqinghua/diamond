@@ -17,6 +17,7 @@
         <module>diamond-embedded-jetty</module>
         <module>diamond-external-container</module>
         <module>diamond-samples</module>
+        <module>diamond-application</module>
     </modules>
 
     <properties>
@@ -47,6 +48,11 @@
             <dependency>
                 <groupId>dream.diamond</groupId>
                 <artifactId>diamond-basic</artifactId>
+                <version>${diamond.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>dream.diamond</groupId>
+                <artifactId>diamond-application</artifactId>
                 <version>${diamond.version}</version>
             </dependency>
             <dependency>
