@@ -11,13 +11,13 @@
 
     <modules>
         <module>diamond-basic</module>
+        <module>diamond-application</module>
         <module>diamond-application-service</module>
         <module>diamond-application-web</module>
         <module>diamond-embedded-tomcat</module>
         <module>diamond-embedded-jetty</module>
         <module>diamond-external-container</module>
         <module>diamond-samples</module>
-        <module>diamond-application</module>
     </modules>
 
     <properties>
