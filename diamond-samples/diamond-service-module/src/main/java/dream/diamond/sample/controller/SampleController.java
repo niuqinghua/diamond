@@ -1,10 +1,10 @@
-package dream.diamond.controller;
+package dream.diamond.sample.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import dream.diamond.service.SampleService;
+import dream.diamond.sample.service.SampleService;
 
 /**
  * Created by niuqinghua on 2015/7/24.

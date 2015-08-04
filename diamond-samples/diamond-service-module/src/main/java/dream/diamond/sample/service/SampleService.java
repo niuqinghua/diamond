@@ -1,4 +1,4 @@
-package dream.diamond.service;
+package dream.diamond.sample.service;
 
 /**
  * Created by niuqinghua on 2015/7/24.

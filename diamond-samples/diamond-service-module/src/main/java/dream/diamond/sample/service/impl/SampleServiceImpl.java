@@ -1,8 +1,8 @@
-package dream.diamond.service.impl;
+package dream.diamond.sample.service.impl;
 
 import org.springframework.stereotype.Service;
 
-import dream.diamond.service.SampleService;
+import dream.diamond.sample.service.SampleService;
 
 /**
  * Created by niuqinghua on 2015/7/24.
