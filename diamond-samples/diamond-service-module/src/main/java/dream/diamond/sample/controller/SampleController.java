@@ -1,5 +1,6 @@
 package dream.diamond.sample.controller;
 
+import com.wordnik.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,6 +12,7 @@ import dream.diamond.sample.service.SampleService;
  */
 @RestController
 @RequestMapping(value = "/sample")
+@Api(value = "sample", description = "sample API")
 public class SampleController {
 
     @Autowired

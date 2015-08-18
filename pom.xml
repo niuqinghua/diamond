@@ -34,7 +34,7 @@
         <spymemcached.version>2.11.3</spymemcached.version>
         <guava.version>18.0</guava.version>
         <commons-codec.version>1.10</commons-codec.version>
-        <swagger-springmvc.version>1.0.2</swagger-springmvc.version>
+        <swagger-springmvc.version>0.8.2</swagger-springmvc.version>
     </properties>
 
     <dependencyManagement>
