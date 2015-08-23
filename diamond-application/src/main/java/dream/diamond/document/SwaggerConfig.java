@@ -34,10 +34,9 @@ public class SwaggerConfig {
     @Bean
     public SwaggerSpringMvcPlugin customImplementation() {
         return new SwaggerSpringMvcPlugin(this.springSwaggerConfig)
-                //Root level documentation
                 .apiInfo(new ApiInfo(
-                        "Central Authorisation Service JSON API",
-                        "This service provides a JSON representation of the LDAP identity data held in the Central Authorisation Service",
+                        " API for Diamond framework based project",
+                        "This API provides a JSON representation",
                         null,
                         null,
                         null,
