@@ -19,7 +19,7 @@ import java.util.List;
 @Configuration
 @EnableSwagger
 @EnableAutoConfiguration
-public class SwaggerConfig {
+public class SwaggerConfiguration {
 
     public static final List<String> DEFAULT_INCLUDE_PATTERNS = Arrays.asList("/.*");
 
