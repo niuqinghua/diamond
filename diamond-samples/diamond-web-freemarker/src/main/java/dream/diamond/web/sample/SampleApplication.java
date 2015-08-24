@@ -1,4 +1,4 @@
-package dream.diamond.service.sample;
+package dream.diamond.web.sample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.context.annotation.ComponentScan;

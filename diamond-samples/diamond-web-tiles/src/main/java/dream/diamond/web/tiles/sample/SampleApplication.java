@@ -1,10 +1,9 @@
-package dream.diamond.service.sample;
+package dream.diamond.web.tiles.sample;
 
+import dream.diamond.application.AbstractExternalServerApplication;
 import org.springframework.boot.SpringApplication;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-
-import dream.diamond.application.AbstractExternalServerApplication;
 
 /**
  * Created by niuqinghua on 2015/7/24.
