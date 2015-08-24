@@ -28,12 +28,6 @@
         <dependency>
             <groupId>org.apache.tiles</groupId>
             <artifactId>tiles-extras</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.google.guava</groupId>
-                    <artifactId>guava</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
