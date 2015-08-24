@@ -10,18 +10,16 @@
         <put-attribute name="footer" value="/WEB-INF/template/default/footer.jsp" />
     </definition>
 
-    <definition name="/*/*/*" extends="defaultTemplate" >
+    <definition name="*/*/*" extends="defaultTemplate" >
         <put-attribute name="body" value="/WEB-INF/views/{1}/{2}/{3}.jsp" />
     </definition>
 
-    <definition name="/*/*" extends="defaultTemplate" >
+    <definition name="*/*" extends="defaultTemplate" >
         <put-attribute name="body" value="/WEB-INF/views/{1}/{2}.jsp" />
     </definition>
 
-    <definition name="/*" extends="defaultTemplate" >
+    <definition name="*" extends="defaultTemplate" >
         <put-attribute name="body" value="/WEB-INF/views/{1}.jsp" />
     </definition>
-
-    <definition name="*" template="/WEB-INF/views/error.jsp"/>
 
 </tiles-definitions>

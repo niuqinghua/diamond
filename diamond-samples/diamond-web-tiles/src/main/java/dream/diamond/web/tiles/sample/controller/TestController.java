@@ -20,14 +20,14 @@ public class TestController {
     public String test1About(Model model) {
         logger.info("About page !");
 
-        return "/test1/about";
+        return "test1/about";
     }
 
     @RequestMapping(value = "/test2/about", method = RequestMethod.GET)
     public String test2About(Model model) {
         logger.info("About page !");
 
-        return "/test1/test2/about";
+        return "test1/test2/about";
     }
 
 }
