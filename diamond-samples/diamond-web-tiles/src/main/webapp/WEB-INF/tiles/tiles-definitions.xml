@@ -4,7 +4,8 @@
         "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
 <tiles-definitions>
 
-    <definition name="defaultTemplate" template="/WEB-INF/template/default/template.jsp">
+    <definition name="defaultTemplate" template="/WEB-INF/template/default/template.jsp"
+                preparer="dream.diamond.web.tiles.sample.view.ViewPreparerSample">
         <put-attribute name="header" value="/WEB-INF/template/default/header.jsp" />
         <put-attribute name="menu" value="/WEB-INF/template/default/menu.jsp" />
         <put-attribute name="footer" value="/WEB-INF/template/default/footer.jsp" />

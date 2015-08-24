@@ -1,3 +1,4 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles" %>
 <html>
     <head>
@@ -56,6 +57,14 @@
             <div class="content">
                 <tiles:insertAttribute name="menu"/>
                 <tiles:insertAttribute name="body"/>
+            </div>
+            <div>
+                <ul>
+                    <c:forEach var="menuItem" items="${menu}">
+                        <c:url var="url" value="${menuItem.url}"/>
+                        <li><a href="${url}">${menuItem.caption}</a></li>
+                    </c:forEach>
+                </ul>
             </div>
             <tiles:insertAttribute name="footer"/>
         </div>
