@@ -36,6 +36,7 @@
         <commons-codec.version>1.10</commons-codec.version>
         <swagger-springmvc.version>1.0.2</swagger-springmvc.version>
         <shiro.version>1.2.4</shiro.version>
+        <tiles.version>3.0.5</tiles.version>
     </properties>
 
     <dependencyManagement>
@@ -136,6 +137,11 @@
                 <groupId>org.apache.shiro</groupId>
                 <artifactId>shiro-spring</artifactId>
                 <version>${shiro.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.tiles</groupId>
+                <artifactId>tiles-extras</artifactId>
+                <version>${tiles.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

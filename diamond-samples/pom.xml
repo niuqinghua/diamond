@@ -25,6 +25,7 @@
         <module>diamond-web-jsp</module>
         <module>diamond-web-module</module>
         <module>diamond-web-velocity</module>
+        <module>diamond-web-tiles</module>
     </modules>
 
     <dependencyManagement>
