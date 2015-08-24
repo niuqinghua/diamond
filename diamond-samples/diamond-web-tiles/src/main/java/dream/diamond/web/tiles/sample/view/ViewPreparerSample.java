@@ -4,6 +4,7 @@ import dream.diamond.web.tiles.sample.vo.menu.MenuItem;
 import org.apache.tiles.AttributeContext;
 import org.apache.tiles.preparer.ViewPreparer;
 import org.apache.tiles.request.Request;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,6 +13,7 @@ import java.util.Map;
 /**
  * Created by niuqinghua on 15/8/24.
  */
+@Component("viewPreparerSample")
 public class ViewPreparerSample implements ViewPreparer {
 
     @Override

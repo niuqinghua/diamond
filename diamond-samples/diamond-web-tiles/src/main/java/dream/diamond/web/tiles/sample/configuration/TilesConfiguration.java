@@ -4,6 +4,7 @@ import dream.diamond.constants.Separators;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.view.tiles3.SpringBeanPreparerFactory;
 import org.springframework.web.servlet.view.tiles3.TilesConfigurer;
 
 /**
@@ -21,6 +22,7 @@ public class TilesConfiguration {
     public TilesConfigurer tilesConfigurer() {
         TilesConfigurer tilesConfigurer = new TilesConfigurer();
         tilesConfigurer.setDefinitions(definitions.split(SEPARATOR_SEMICOLON));
+        tilesConfigurer.setPreparerFactoryClass(SpringBeanPreparerFactory.class);
         return tilesConfigurer;
     }
 
