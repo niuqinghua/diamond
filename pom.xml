@@ -18,6 +18,8 @@
         <module>diamond-embedded-jetty</module>
         <module>diamond-external-container</module>
         <module>diamond-samples</module>
+        <module>diamond-shiro</module>
+        <module>diamond-spring-security</module>
     </modules>
 
     <properties>
