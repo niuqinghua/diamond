@@ -2,17 +2,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <artifactId>diamond-root</artifactId>
-        <groupId>dream.diamond</groupId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
+
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
 
+    <groupId>dream.diamond</groupId>
     <artifactId>diamond-dependencies</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
     <properties>
+        <diamond.version>1.0-SNAPSHOT</diamond.version>
         <dozer.version>5.5.1</dozer.version>
         <spring.boot.version>1.2.5.RELEASE</spring.boot.version>
         <metrics.version>0.0.1-SNAPSHOT</metrics.version>
@@ -30,7 +29,7 @@
         <tiles.version>3.0.5</tiles.version>
         <jsr250-api.version>1.0</jsr250-api.version>
         <activemq.version>5.7.0</activemq.version>
-        <activemq.pool.version>5.12.0</activemq.pool.version>
+        <activemq.pool.version>5.11.1</activemq.pool.version>
         <qpid-client.version>0.32</qpid-client.version>
         <geronimo-jms-1-1-version>1.1.1</geronimo-jms-1-1-version>
     </properties>
@@ -66,17 +65,17 @@
             </dependency>
             <dependency>
                 <groupId>dream.diamond</groupId>
-                <artifactId>diamond-embedded-jetty</artifactId>
+                <artifactId>diamond-starter-jetty</artifactId>
                 <version>${diamond.version}</version>
             </dependency>
             <dependency>
                 <groupId>dream.diamond</groupId>
-                <artifactId>diamond-embedded-tomcat</artifactId>
+                <artifactId>diamond-starter-embedded-tomcat</artifactId>
                 <version>${diamond.version}</version>
             </dependency>
             <dependency>
                 <groupId>dream.diamond</groupId>
-                <artifactId>diamond-external-container</artifactId>
+                <artifactId>diamond-starter-external-container</artifactId>
                 <version>${diamond.version}</version>
             </dependency>
             <dependency>
@@ -187,5 +186,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
 
 </project>
