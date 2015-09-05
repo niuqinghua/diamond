@@ -20,6 +20,8 @@
         <module>diamond-samples</module>
         <module>diamond-shiro</module>
         <module>diamond-spring-security</module>
+        <module>diamond-autoconfigure</module>
+        <module>diamond-starters</module>
     </modules>
 
     <properties>
@@ -39,6 +41,10 @@
         <swagger-springmvc.version>1.0.2</swagger-springmvc.version>
         <shiro.version>1.2.4</shiro.version>
         <tiles.version>3.0.5</tiles.version>
+        <jsr250-api.version>1.0</jsr250-api.version>
+        <activemq.version>5.7.0</activemq.version>
+        <qpid-client.version>0.32</qpid-client.version>
+        <geronimo-jms-1-1-version>1.1.1</geronimo-jms-1-1-version>
     </properties>
 
     <dependencyManagement>
@@ -83,6 +89,21 @@
             <dependency>
                 <groupId>dream.diamond</groupId>
                 <artifactId>diamond-external-container</artifactId>
+                <version>${diamond.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>dream.diamond</groupId>
+                <artifactId>diamond-autoconfigure</artifactId>
+                <version>${diamond.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>dream.diamond</groupId>
+                <artifactId>diamond-starter</artifactId>
+                <version>${diamond.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>dream.diamond</groupId>
+                <artifactId>diamond-starter-activemq</artifactId>
                 <version>${diamond.version}</version>
             </dependency>
             <dependency>
@@ -150,6 +171,26 @@
                         <artifactId>guava</artifactId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>javax.annotation</groupId>
+                <artifactId>jsr250-api</artifactId>
+                <version>${jsr250-api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>activemq-core</artifactId>
+                <version>${activemq.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.qpid</groupId>
+                <artifactId>qpid-client</artifactId>
+                <version>${qpid-client.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.geronimo.specs</groupId>
+                <artifactId>geronimo-jms_1.1_spec</artifactId>
+                <version>${geronimo-jms-1-1-version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

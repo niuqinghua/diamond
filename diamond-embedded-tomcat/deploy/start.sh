@@ -1,0 +1,1 @@
+nohup java -Dserver.port=58080 -Dfile.encoding=UTF-8 -Xmx1024M -XX:MaxPermSize=512M -Xms1024M -XX:+UseG1GC -jar stone-service-embedded-tomcat-1.0.4-SNAPSHOT.jar &
