@@ -94,6 +94,16 @@
                 <version>${diamond.version}</version>
             </dependency>
             <dependency>
+                <groupId>dream.diamond</groupId>
+                <artifactId>diamond-starter-shiro</artifactId>
+                <version>${diamond.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>dream.diamond</groupId>
+                <artifactId>diamond-starter-spring-security</artifactId>
+                <version>${diamond.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>net.sf.dozer</groupId>
                 <artifactId>dozer</artifactId>
                 <version>${dozer.version}</version>

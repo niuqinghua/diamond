@@ -19,6 +19,8 @@
         <module>diamond-starter-jetty</module>
         <module>diamond-starter-embedded-tomcat</module>
         <module>diamond-starter-external-container</module>
+        <module>diamond-starter-shiro</module>
+        <module>diamond-starter-spring-security</module>
     </modules>
 
 </project>

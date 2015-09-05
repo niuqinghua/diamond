@@ -15,8 +15,6 @@
         <module>diamond-application-service</module>
         <module>diamond-application-web</module>
         <module>diamond-samples</module>
-        <module>diamond-shiro</module>
-        <module>diamond-spring-security</module>
         <module>diamond-autoconfigure</module>
         <module>diamond-starters</module>
         <module>diamond-dependencies</module>
