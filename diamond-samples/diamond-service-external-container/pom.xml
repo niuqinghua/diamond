@@ -19,7 +19,7 @@
         </dependency>
         <dependency>
             <groupId>dream.diamond</groupId>
-            <artifactId>diamond-external-container</artifactId>
+            <artifactId>diamond-starter-external-container</artifactId>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>

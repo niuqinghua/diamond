@@ -14,9 +14,6 @@
         <module>diamond-application</module>
         <module>diamond-application-service</module>
         <module>diamond-application-web</module>
-        <module>diamond-embedded-tomcat</module>
-        <module>diamond-embedded-jetty</module>
-        <module>diamond-external-container</module>
         <module>diamond-samples</module>
         <module>diamond-shiro</module>
         <module>diamond-spring-security</module>
@@ -80,17 +77,17 @@
             </dependency>
             <dependency>
                 <groupId>dream.diamond</groupId>
-                <artifactId>diamond-embedded-jetty</artifactId>
+                <artifactId>diamond-starter-jetty</artifactId>
                 <version>${diamond.version}</version>
             </dependency>
             <dependency>
                 <groupId>dream.diamond</groupId>
-                <artifactId>diamond-embedded-tomcat</artifactId>
+                <artifactId>diamond-starter-embedded-tomcat</artifactId>
                 <version>${diamond.version}</version>
             </dependency>
             <dependency>
                 <groupId>dream.diamond</groupId>
-                <artifactId>diamond-external-container</artifactId>
+                <artifactId>diamond-starter-external-container</artifactId>
                 <version>${diamond.version}</version>
             </dependency>
             <dependency>

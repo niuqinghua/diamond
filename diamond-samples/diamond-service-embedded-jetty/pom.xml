@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>dream.diamond</groupId>
-            <artifactId>diamond-embedded-jetty</artifactId>
+            <artifactId>diamond-starter-jetty</artifactId>
         </dependency>
         <dependency>
             <groupId>dream.diamond</groupId>

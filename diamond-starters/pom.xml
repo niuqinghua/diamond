@@ -15,6 +15,9 @@
         <module>diamond-starter</module>
         <module>diamond-starter-activemq</module>
         <module>diamond-starter-swiftmq</module>
+        <module>diamond-starter-jetty</module>
+        <module>diamond-starter-embedded-tomcat</module>
+        <module>diamond-starter-external-container</module>
     </modules>
 
 </project>
