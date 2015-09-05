@@ -8,6 +8,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jms.connection.SingleConnectionFactory;
+import org.springframework.jms.core.JmsTemplate;
 
 import javax.jms.ConnectionFactory;
 
@@ -37,6 +38,12 @@ public class ActiveMQAutoConfiguration {
     @ConditionalOnMissingBean(SingleConnectionFactory.class)
     public ConnectionFactory connectionFactory(PooledConnectionFactory pooledConnectionFactory) {
         return new SingleConnectionFactory(pooledConnectionFactory);
+    }
+
+    @Bean(name = "jmsTemplate")
+    @ConditionalOnMissingBean(JmsTemplate.class)
+    public JmsTemplate jmsTemplate(ConnectionFactory connectionFactory) {
+        return new JmsTemplate(connectionFactory);
     }
 
 }
