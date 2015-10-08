@@ -21,6 +21,7 @@
         <module>diamond-starter-external-container</module>
         <module>diamond-starter-shiro</module>
         <module>diamond-starter-spring-security</module>
+        <module>diamond-starter-dubbo</module>
     </modules>
 
 </project>
