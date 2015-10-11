@@ -22,6 +22,7 @@
         <module>diamond-starter-shiro</module>
         <module>diamond-starter-spring-security</module>
         <module>diamond-starter-dubbo</module>
+        <module>diamond-starter-dozer</module>
     </modules>
 
 </project>
