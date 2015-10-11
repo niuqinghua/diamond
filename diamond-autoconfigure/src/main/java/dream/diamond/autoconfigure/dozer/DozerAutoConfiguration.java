@@ -1,5 +1,6 @@
 package dream.diamond.autoconfigure.dozer;
 
+import org.dozer.DozerBeanMapper;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
